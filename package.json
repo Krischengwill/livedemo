@@ -1,13 +1,17 @@
 {
-  "name": "gallerybyreact",
+  "name": "deploy",
   "version": "0.0.0",
   "description": "",
   "repository": "",
   "private": true,
   "src": "src",
   "test": "test",
-  "scripts": {"start":"grunt serve"},
   "dist": "dist",
+  "scripts": {"start":"grunt serve"},
+  "engines": {
+    "npm":"6.4.1",
+    "node":"8.12.0"
+  },
   "mainInput": "GalleryByReactApp",
   "mainOutput": "main",
   "dependencies": {
