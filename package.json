@@ -17,6 +17,8 @@
     "react": "^0.13.3",
     "react-awesome-snippets": "0.0.22"
   },
+
+
   "devDependencies": {
     "autoprefixer-loader": "^2.0.0",
     "babel": "^5.0.0",
@@ -47,4 +49,5 @@
     "webpack": "~1.10.0",
     "webpack-dev-server": "~1.10.0"
   }
+
 }
