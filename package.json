@@ -1,5 +1,5 @@
 {
-  "name": "gallerybyreact",
+  "name": "deploy",
   "version": "0.0.0",
   "description": "",
   "repository": "",
@@ -7,18 +7,22 @@
   "src": "src",
   "test": "test",
   "dist": "dist",
+  "scripts": {"start":"grunt serve"},
+  "engines": {
+    "npm":"6.4.1",
+    "node":"8.12.0"
+  },
   "mainInput": "GalleryByReactApp",
   "mainOutput": "main",
   "dependencies": {
     "babel-preset-react-app": "^3.1.2",
+    "express": "^4.16.4",
     "file-loader": "^2.0.0",
     "node-sass": "^4.11.0",
     "normalize.css": "~3.0.3",
     "react": "^0.13.3",
     "react-awesome-snippets": "0.0.22"
   },
-
-
   "devDependencies": {
     "autoprefixer-loader": "^2.0.0",
     "babel": "^5.0.0",
@@ -49,5 +53,4 @@
     "webpack": "~1.10.0",
     "webpack-dev-server": "~1.10.0"
   }
-
 }
