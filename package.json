@@ -6,6 +6,7 @@
   "private": true,
   "src": "src",
   "test": "test",
+  "scripts": {"start":"grunt serve"},
   "dist": "dist",
   "mainInput": "GalleryByReactApp",
   "mainOutput": "main",
