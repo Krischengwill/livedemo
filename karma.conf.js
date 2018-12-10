@@ -61,7 +61,7 @@ module.exports = function (config) {
       }
     },
     exclude: [],
-    port: 8080,
+    port: 8000,
     logLevel: config.LOG_INFO,
     colors: true,
     autoWatch: false,
