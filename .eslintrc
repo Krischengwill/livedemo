@@ -13,6 +13,7 @@
   },
   "rules": {
     "quotes": [ 1, "single" ],
+    "no-console":"off",
     "no-undef": false,
     "global-strict": false,
     "no-extra-semi": 1,
